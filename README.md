@@ -1,5 +1,7 @@
 # Accordion in React and Tailwind CSS 
 
+![](pic-1.png)
+
 The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
 
 - `npm start` — This will spawn a development server with a default port of `3000`.
@@ -23,3 +25,6 @@ vite --port 1234
 - Conditonal rendering is used based on state to render info or not
 - Show / Hide button is also rendered conditionally by state
 
+# Features
+- Show or Hide answer by pressing the green button .
+- State is updated without rendering the whole page
