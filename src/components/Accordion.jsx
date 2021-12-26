@@ -15,7 +15,7 @@ export default function Accordion(props){
                         <div className="flex justify-between mb-2 align-center question">
                         <p className=" mb-2 pb-2 font-light text-lg text-slate-600">{props.title}</p>
 
-                        <button className="ml-auto px-4 py-1 rounded-md bg-green-400" onClick={hideAnswer}>{info? 'Show': 'Hide'}</button>
+                        <button className="text-lime-50 font-medium ml-auto px-4 py-1 rounded-md bg-green-400" onClick={hideAnswer}>{info? 'Hide': 'Show'}</button>
                         </div>
                          
                         {info?<p className="answer text-slate-500 pt-4 border-blue-300 border-t-4 border-dotted">{props.info}</p>: <p></p>}

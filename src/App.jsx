@@ -1,6 +1,6 @@
 import React from "react";
-import Main from './Main'
-import Accordion from "./Accordion";
+import Main from './components/Main'
+import Accordion from "./components/Accordion";
 
 import data from './data'
 
